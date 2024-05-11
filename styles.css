@@ -76,4 +76,30 @@ button{
     font-weight: 700;
 }
 
+.container {
+    display: flex;
+    flex-wrap: wrap; /* agrega salto de línea a los elementos */
+    margin: 16px;
+  }
+
+
+  /* Selector específico anidado */
+.column p {
+    width: 350px;
+  }
+/* Estilos para las imágenes */
+/*https://www.digitalocean.com/community/tutorials/css-cropping-images-object-fit*/
+img {
+   object-position: 45% 0;
+    object-fit: cover;
+    width: 435px;
+    height: 617px;
+    max-width: 100%; /* Para asegurar que las imágenes se ajusten al contenedor */
+    margin: 24px;
+  }
+
+
+
+
+
 
