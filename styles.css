@@ -1,0 +1,84 @@
+/*COMENTARIOS*/
+/*Estilos */
+
+body{
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 20px;
+  font-style: normal;
+
+}
+
+
+/* Fonts Bold/H1 32 Titulos */
+h1{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+/* Fonts Regular/H2 28 Titulos, Subtemas H1 */
+h2{
+    font-size: 28px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+/* Fonts Regular/H3 24 Titulos Subsecciones H2 */
+h3{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;  
+}
+
+
+/* Fonts Regular/H4 20 Titulos Subsecciones H3 */
+h4{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+/* Fonts Regular/H5 18 Titulos Subsecciones H4 */
+h5{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+/* Fonts Regular/H6 16 Titulos Subsecciones H5 */
+h6{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+/* Fonts Regular/Parrafos 18 */
+p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;    
+}
+
+
+/* Fonts Regular/Fine Print 15 */
+fineprint{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: normal;
+}
+
+
+/* Fonts Regular/Botones 16 */
+button{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
