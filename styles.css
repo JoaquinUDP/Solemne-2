@@ -116,17 +116,10 @@ cuadro{
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
-    display: flex;
-    width: 412px;
-    height: 190px;
-    padding: 24px 8px 16px 8px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
 
 }
 
-encabezado{
+DescCuadro{
     display: flex;
     width: 412px;
     height: 54px;
@@ -134,6 +127,28 @@ encabezado{
     justify-content: center;
     align-items: center;
     gap: 10px;
+    font-size: 28px;
+    font-weight: 700;
+    width: 389px;
+    flex-shrink: 0;
+}
+
+TextoCuadro{
+    display: flex;
+    width: 412px;
+    height: 190px;
+    padding: 24px 8px 16px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 396px;
+    flex-shrink: 0;
+}
+
+
+.grupo1{
+    width: 922px;
+    height: 504px;
 }
 
 .frame-2{
