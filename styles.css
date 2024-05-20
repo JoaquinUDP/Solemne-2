@@ -7,8 +7,9 @@ body{
   padding: 20px;
   font-style: normal;
   line-height: normal;
+  color: #201E1E;
+  background-color: #ffffff;
 }
-
 
 /* Fonts Bold/H1 32 Titulos */
 h1{
