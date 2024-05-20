@@ -112,7 +112,7 @@ img {
     margin: 24px;
   }
 
-  
+
 /*Grupo con mi nombre y datos*/
 cuadro{
     display: inline-flex;
@@ -121,6 +121,8 @@ cuadro{
     
 }
 
+
+/*Grupo que contiene al grupo 2*/
 .frame-3{
     display: flex;
     padding: 0px 19px;
@@ -130,12 +132,12 @@ cuadro{
 
 
 
+/*Grupo que contiene la desc. sobre mi y la Info*/
 .frame-2{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
-
 
 
 /*Texto descriptivo sobre mi*/
@@ -145,15 +147,24 @@ sobremi{
     justify-content: center;
     align-items: center;
     gap: 10px;
-    width: 800px;
+    width: 890px;
 }
 
+
+/*Grupo con Info de Habilidades, etc.*/
+.grupo1{
+    width: 922px;
+    height: 504px;
+}
+
+/*Titulo Informacion*/
 DescCuadro{
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
+/*Texto con Info*/
 TextoCuadro{
     width: 412px;
     height: 190px;
@@ -163,11 +174,6 @@ TextoCuadro{
     gap: 10px;
     width: 396px;
     flex-shrink: 0;
-}
-
-.grupo1{
-    width: 922px;
-    height: 504px;
 }
 
 
