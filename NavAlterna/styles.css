@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-
+/*Cuadro de la NavBar*/
 *{
     box-sizing: border-box;
     margin: 0;
@@ -17,7 +17,7 @@ body{
 .header{
     background-color: #2C6969;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     height: 85px;
     padding: 5px 10%;
@@ -51,6 +51,26 @@ body{
     font-size: 700;
     color: #ffffff;
     text-decoration: none;
+}
+
+/*Propiedades del Boton*/
+.header .btn button{
+    margin-left: 20px;
+    font-weight: 700;
+    color: #214E4E;
+    padding: 9px 25px;
+    background: #ffffff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+/*Propiedades del Boton en hover*/
+.header .btn button:hover{
+    background-color: #ffffff;
+    color: #ffbc0e;
+    transform: scale(1.1);
 }
 
 
