@@ -61,10 +61,10 @@ h6{
 p{
     font-size: 18px;
     font-weight: 400;   
-    width: 500px; /* Ancho específico para el párrafo */
-    padding: 6px;
-    justify-content: center;
-    margin-right: 10px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 
@@ -74,12 +74,6 @@ fineprint{
     font-weight: 300;
 }
 
-
-/* Fonts Regular/Botones 16 */
-button{
-    font-size: 16px;
-    font-weight: 700;
-}
 
 .container {
     display: flex;
@@ -92,10 +86,25 @@ button{
 .column p {
     width: 350px;
   }
+
+.frame-4{
+    display: flex;
+    padding: 60px 0px;
+    flex-direction: column;
+    align-items: center;
+}
+
 /* Estilos para las imágenes */
 /*https://www.digitalocean.com/community/tutorials/css-cropping-images-object-fit*/
+
+.cuadro imagen{
+    display: flex;
+    padding: 64px 32px 8px 32px;
+    align-items: flex-start;
+    gap: 10px;
+}
 img {
-   object-position: 45% 0;
+    object-position: 45% 0;
     object-fit: cover;
     width: 435px;
     height: 617px;
@@ -103,58 +112,13 @@ img {
     margin: 24px;
   }
 
-sobremi{
-    display: inline-flex;
-    padding: 16px 16px 32px 16px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    width: 800px;
-}
-
+  
+/*Grupo con mi nombre y datos*/
 cuadro{
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
-
-}
-
-DescCuadro{
-    display: flex;
-    width: 412px;
-    height: 54px;
-    padding: 16px 8px 0px 8px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    font-size: 28px;
-    font-weight: 700;
-    width: 389px;
-    flex-shrink: 0;
-}
-
-TextoCuadro{
-    display: flex;
-    width: 412px;
-    height: 190px;
-    padding: 24px 8px 16px 8px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    width: 396px;
-    flex-shrink: 0;
-}
-
-
-.grupo1{
-    width: 922px;
-    height: 504px;
-}
-
-.frame-2{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    
 }
 
 .frame-3{
@@ -164,14 +128,46 @@ TextoCuadro{
     align-items: flex-end;
 }
 
-.frame-4{
+
+
+.frame-2{
     display: flex;
-    padding: 60px 0px;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
 }
 
 
 
+/*Texto descriptivo sobre mi*/
+sobremi{
+    display: flex;
+    padding: 16px 16px 32px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 800px;
+}
+
+DescCuadro{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+TextoCuadro{
+    width: 412px;
+    height: 190px;
+    padding: 24px 8px 16px 8px;
+    justify-content: center;
+    align-items: left;
+    gap: 10px;
+    width: 396px;
+    flex-shrink: 0;
+}
+
+.grupo1{
+    width: 922px;
+    height: 504px;
+}
 
 
