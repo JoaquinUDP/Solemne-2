@@ -36,7 +36,8 @@ body{
 
 
 /*Al hacer hover al texto, se agranda*/
-.header .nav-links li:hover{
+.header .nav-links li:hover,
+.overlay .a:hover{
     transform: scale(1.1);
 }
 
@@ -46,15 +47,21 @@ body{
     color: #ffbc0e;
 }
 
+/*Para que no aparesca la palabra menu*/
+.menu{
+    display: none;
+}
+
+
 /*Color del texto y font size*/
 .header .nav-links a{
     font-size: 700;
     color: #ffffff;
-    text-decoration: none;
 }
 
 /*Propiedades del Boton*/
-.header .btn button{
+.header .btn button,
+.header .menu button{
     margin-left: 20px;
     font-weight: 700;
     color: #214E4E;
@@ -67,7 +74,8 @@ body{
 }
 
 /*Propiedades del Boton en hover*/
-.header .btn button:hover{
+.header .btn button:hover,
+.header .menu button:hover{
     background-color: #ffffff;
     color: #ffbc0e;
     transform: scale(1.1);
@@ -75,4 +83,76 @@ body{
 
 
 
+@media screen and (max-width: 800px){
+    .nav-links, .btn{
+        display: none;
+    }
+    .menu{
+        display: inherit;
+    }
+
+}
+
+/*Nav Hamburguesa o Movil*/
+.header a{
+    text-decoration: none;
+}
+
+/*Estilo del Overlay al apretar el menu*/
+.header .overlay{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: rgba(100, 150, 150, .50);
+    overflow: hidden;
+    transition: all 0.3s ease 0s;
+}
+
+
+.header .overlay .overlay-content{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.header .overlay a{
+    padding: 15px;
+    font-size: 36px;
+    display: block;
+    transition: all 0.3s ease 0s;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.header .overlay a:hover,
+.header .overlay a:focus{
+    color: #ffbc0e;
+}
+
+
+.header .overlay .close{
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 65px;
+}
+
+
+@media screen and (max-width:450px){
+    .header .overlay a{
+        font-size: 20px;
+    }
+
+    .header .overlay .close{
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
 
