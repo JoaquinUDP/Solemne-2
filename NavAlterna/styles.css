@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+/*color de la barra*/
+.header{
+    background-color: #2C6969;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+/*le saca los puntos tipo lista a la nav*/
+.header .nav-links{
+    list-style: none;
+}
+
+/*Separacion de elementos de la barra*/
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+
+/*Al hacer hover al texto, se agranda*/
+.header .nav-links li:hover{
+    transform: scale(1.1);
+}
+
+
+/*Cambia el color del texto al hacer hover*/
+.header .nav-links li a:hover{
+    color: #ffbc0e;
+}
+
+/*Color del texto y font size*/
+.header .nav-links a{
+    font-size: 700;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+
+
